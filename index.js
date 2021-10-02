@@ -20,7 +20,7 @@ function ConverterDolar() {
     console.log(valorEmEuro);
   
     var elementoValorConvertido = document.getElementById("valorConvertido");
-    var valorConvertido = "€" + valorEmEuro;
+    var valorConvertido = "€" + valorEmEuro.toFixed(2);
     elementoValorConvertido.innerHTML = valorConvertido;
   }
 
