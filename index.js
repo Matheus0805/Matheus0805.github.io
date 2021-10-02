@@ -33,6 +33,6 @@ function ConverterDolar() {
     console.log(valorEmIene);
   
     var elementoValorConvertido = document.getElementById("valorConvertido");
-    var valorConvertido = "¥" + valorEmIene;
+    var valorConvertido = "¥" + valorEmIene.toFixed(2);
     elementoValorConvertido.innerHTML = valorConvertido;
   }
