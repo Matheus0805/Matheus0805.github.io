@@ -7,7 +7,7 @@ function ConverterDolar() {
     console.log(valorEmDolar);
   
     var elementoValorConvertido = document.getElementById("valorConvertido");
-    var valorConvertido = "$" + valorEmDolar;
+    var valorConvertido = "$" + valorEmDolar.toFixed(2);
     elementoValorConvertido.innerHTML = valorConvertido;
   }
 
