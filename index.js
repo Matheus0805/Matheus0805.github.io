@@ -7,7 +7,7 @@ function ConverterDolar() {
     console.log(valorEmDolar);
   
     var elementoValorConvertido = document.getElementById("valorConvertido");
-    var valorConvertido = "$" + valorEmDolar.toFixed(2);
+    var valorConvertido = "$ " + valorEmDolar.toFixed(2);
     elementoValorConvertido.innerHTML = valorConvertido;
   }
 
@@ -20,7 +20,7 @@ function ConverterDolar() {
     console.log(valorEmEuro);
   
     var elementoValorConvertido = document.getElementById("valorConvertido");
-    var valorConvertido = "€" + valorEmEuro.toFixed(2);
+    var valorConvertido = "€ " + valorEmEuro.toFixed(2);
     elementoValorConvertido.innerHTML = valorConvertido;
   }
 
@@ -33,7 +33,7 @@ function ConverterDolar() {
     console.log(valorEmIene);
   
     var elementoValorConvertido = document.getElementById("valorConvertido");
-    var valorConvertido = "¥" + valorEmIene.toFixed(2);
+    var valorConvertido = "¥ " + valorEmIene.toFixed(2);
     elementoValorConvertido.innerHTML = valorConvertido;
   }
 function ConverterBitcoin() {
@@ -45,6 +45,6 @@ function ConverterBitcoin() {
     console.log(valorEmBitcoin);
   
     var elementoValorConvertido = document.getElementById("valorConvertido");
-    var valorConvertido = "BTC" + valorEmBitcoin.toFixed(6);
+    var valorConvertido = "₿ " + valorEmBitcoin.toFixed(6);
     elementoValorConvertido.innerHTML = valorConvertido;
   }
