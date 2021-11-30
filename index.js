@@ -36,3 +36,15 @@ function ConverterDolar() {
     var valorConvertido = "¥" + valorEmIene.toFixed(2);
     elementoValorConvertido.innerHTML = valorConvertido;
   }
+function ConverterBitcoin() {
+    var valorElemento = document.getElementById("valor");
+    var valor = valorElemento.value;
+    var valorEmRealNumerico = parseFloat(valor);
+  
+    var valorEmBitcoin = valorEmRealNumerico/329327.38 ;
+    console.log(valorEmBitcoin);
+  
+    var elementoValorConvertido = document.getElementById("valorConvertido");
+    var valorConvertido = "BTC" + valorEmBitcoin.toFixed(6);
+    elementoValorConvertido.innerHTML = valorConvertido;
+  }
